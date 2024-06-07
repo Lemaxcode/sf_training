@@ -1,0 +1,627 @@
+[
+  {
+    "group": "dos",
+    "exercises": [
+      {
+        "name": "Tirage horizontal",
+        "description": "Exercice pour travailler l'épaisseur du dos en tirant une barre vers l'abdomen."
+      },
+      {
+        "name": "Tirage vertical",
+        "description": "Exercice pour développer la largeur du dos en tirant une barre vers la poitrine depuis une position assise."
+      },
+      {
+        "name": "Rowing barre",
+        "description": "Exercice de base pour le dos, impliquant de tirer une barre vers le torse en position penchée."
+      },
+      {
+        "name": "Rowing haltère",
+        "description": "Exercice pour travailler un côté du dos à la fois en tirant un haltère vers le torse."
+      },
+      {
+        "name": "Rowing T-bar",
+        "description": "Exercice de tirage utilisant une barre en T pour développer l'épaisseur du dos."
+      },
+      {
+        "name": "Tirage poulie haute",
+        "description": "Exercice pour développer la largeur du dos en tirant une barre de poulie haute vers le bas."
+      },
+      {
+        "name": "Tirage nuque",
+        "description": "Variante du tirage vertical ciblant le haut du dos en tirant la barre derrière la tête."
+      },
+      {
+        "name": "Pull-over",
+        "description": "Exercice pour travailler le grand dorsal et la cage thoracique en déplaçant une barre ou un haltère au-dessus de la tête."
+      },
+      {
+        "name": "Superman",
+        "description": "Exercice au poids du corps pour renforcer le bas du dos en levant les bras et les jambes simultanément."
+      },
+      {
+        "name": "Tirage unilatéral",
+        "description": "Exercice pour isoler un côté du dos en tirant une poignée vers le torse."
+      },
+      {
+        "name": "Tirage inversé",
+        "description": "Exercice de tirage au poids du corps utilisant une barre fixe pour développer le dos."
+      },
+      {
+        "name": "Soulevé de terre",
+        "description": "Exercice polyarticulaire travaillant principalement les muscles du dos et des jambes en soulevant une barre du sol."
+      },
+      {
+        "name": "Tirage horizontal prise neutre",
+        "description": "Variante du tirage horizontal avec une prise neutre pour travailler l'épaisseur du dos."
+      },
+      {
+        "name": "Rowing machine",
+        "description": "Exercice utilisant une machine de rowing pour travailler le dos en tirant une poignée vers le torse."
+      },
+      {
+        "name": "Rowing inversé",
+        "description": "Exercice au poids du corps utilisant une barre fixe pour tirer le torse vers la barre."
+      },
+      {
+        "name": "Tirage horizontal élastique",
+        "description": "Exercice de tirage utilisant un élastique pour travailler le dos."
+      },
+      {
+        "name": "Tirage vertical prise large",
+        "description": "Variante du tirage vertical avec une prise large pour cibler la largeur du dos."
+      },
+      {
+        "name": "Tirage vertical prise serrée",
+        "description": "Variante du tirage vertical avec une prise serrée pour cibler le bas du dos."
+      },
+      {
+        "name": "Tirage poitrine",
+        "description": "Exercice pour travailler le dos en tirant une barre vers la poitrine."
+      },
+      {
+        "name": "Rowing machine à une main",
+        "description": "Exercice de rowing utilisant une machine avec une seule main pour isoler un côté du dos."
+      },
+      {
+        "name": "Good morning",
+        "description": "Exercice pour le bas du dos et les ischio-jambiers en fléchissant les hanches en avant."
+      },
+      {
+        "name": "Hyperextensions",
+        "description": "Exercice pour renforcer le bas du dos en s'étendant à partir d'une position horizontale."
+      },
+      {
+        "name": "Face pull",
+        "description": "Exercice pour travailler les muscles du haut du dos et les épaules en tirant une corde vers le visage."
+      },
+      {
+        "name": "Pull-up",
+        "description": "Exercice de traction au poids du corps pour développer le dos en se soulevant jusqu'à ce que le menton dépasse la barre."
+      },
+      {
+        "name": "Chin-up",
+        "description": "Variante du pull-up avec une prise supination pour cibler les biceps et le dos."
+      },
+      {
+        "name": "Tirage horizontal assis",
+        "description": "Exercice pour le dos en tirant une barre vers l'abdomen en position assise."
+      },
+      {
+        "name": "Tirage vertical assis",
+        "description": "Exercice pour le dos en tirant une barre de haut en bas en position assise."
+      },
+      {
+        "name": "Tirage horizontal machine",
+        "description": "Exercice utilisant une machine de tirage horizontal pour travailler le dos."
+      },
+      {
+        "name": "Tirage vertical machine",
+        "description": "Exercice utilisant une machine de tirage vertical pour travailler le dos."
+      },
+      {
+        "name": "Rowing machine inclinée",
+        "description": "Exercice de tirage utilisant une machine inclinée pour travailler le dos."
+      }
+    ]
+  },
+  {
+    "group": "bras",
+    "exercises": [
+      {
+        "name": "Curl biceps",
+        "description": "Exercice de base pour les biceps en soulevant une barre ou des haltères."
+      },
+      {
+        "name": "Curl haltères",
+        "description": "Exercice pour les biceps en soulevant des haltères."
+      },
+      {
+        "name": "Curl barre",
+        "description": "Exercice pour les biceps en soulevant une barre."
+      },
+      {
+        "name": "Curl marteau",
+        "description": "Variante du curl avec une prise neutre pour cibler les brachialis."
+      },
+      {
+        "name": "Curl pupitre",
+        "description": "Exercice isolant pour les biceps en utilisant un pupitre pour soutenir les bras."
+      },
+      {
+        "name": "Curl concentration",
+        "description": "Exercice pour les biceps en soulevant un haltère en position assise, un bras à la fois."
+      },
+      {
+        "name": "Curl corde",
+        "description": "Exercice pour les biceps en utilisant une corde attachée à une poulie."
+      },
+      {
+        "name": "Extension triceps",
+        "description": "Exercice pour les triceps en étendant les bras au-dessus de la tête avec une barre ou des haltères."
+      },
+      {
+        "name": "Dips",
+        "description": "Exercice au poids du corps pour les triceps en descendant et remontant le corps entre deux barres parallèles."
+      },
+      {
+        "name": "Pompes diamant",
+        "description": "Variante des pompes avec les mains rapprochées pour cibler les triceps."
+      },
+      {
+        "name": "Kickback",
+        "description": "Exercice pour les triceps en étendant un haltère vers l'arrière."
+      },
+      {
+        "name": "Extension poulie haute",
+        "description": "Exercice pour les triceps en tirant une corde ou une barre depuis une poulie haute."
+      },
+      {
+        "name": "Extension haltères",
+        "description": "Exercice pour les triceps en étendant les bras avec des haltères."
+      },
+      {
+        "name": "Extension barre",
+        "description": "Exercice pour les triceps en étendant les bras avec une barre."
+      },
+      {
+        "name": "Extension corde",
+        "description": "Exercice pour les triceps en utilisant une corde attachée à une poulie."
+      },
+      {
+        "name": "Extension unilatérale",
+        "description": "Exercice pour les triceps en utilisant un seul bras à la fois."
+      },
+      {
+        "name": "Curl incliné",
+        "description": "Exercice pour les biceps en soulevant des haltères sur un banc incliné."
+      },
+      {
+        "name": "Curl araignée",
+        "description": "Exercice pour les biceps en soulevant une barre sur un banc incliné vers l'avant."
+      },
+      {
+        "name": "Curl inversé",
+        "description": "Exercice pour les biceps en utilisant une prise pronation."
+      },
+      {
+        "name": "Curl machine",
+        "description": "Exercice pour les biceps en utilisant une machine."
+      },
+      {
+        "name": "Curl câble",
+        "description": "Exercice pour les biceps en utilisant une poulie basse."
+      },
+      {
+        "name": "Curl Zottman",
+        "description": "Variante du curl combinant un curl normal et un curl inversé."
+      },
+      {
+        "name": "Curl prise serrée",
+        "description": "Variante du curl avec une prise serrée pour cibler les avant-bras."
+      },
+      {
+        "name": "Extension barre front",
+        "description": "Exercice pour les triceps en étendant une barre au-dessus de la tête depuis une position couchée."
+      },
+      {
+        "name": "Extension barre au-dessus de la tête",
+        "description": "Exercice pour les triceps en étendant une barre au-dessus de la tête."
+      },
+      {
+        "name": "Extension triceps machine",
+        "description": "Exercice pour les triceps en utilisant une machine."
+      },
+      {
+        "name": "Extension triceps élastique",
+        "description": "Exercice pour les triceps en utilisant un élastique."
+      },
+      {
+        "name": "Curl biceps élastique",
+        "description": "Exercice pour les biceps en utilisant un élastique."
+      },
+      {
+        "name": "Curl concentration haltère",
+        "description": "Exercice pour les biceps en soulevant un haltère en position assise."
+      },
+      {
+        "name": "Curl concentration poulie",
+        "description": "Exercice pour les biceps en utilisant une poulie."
+      }
+    ]
+  },
+  {
+    "group": "pec",
+    "exercises": [
+      {
+        "name": "Développé couché",
+        "description": "Exercice de base pour les pectoraux en soulevant une barre depuis une position couchée."
+      },
+      {
+        "name": "Développé incliné",
+        "description": "Exercice pour les pectoraux supérieurs en soulevant une barre sur un banc incliné."
+      },
+      {
+        "name": "Développé décliné",
+        "description": "Exercice pour les pectoraux inférieurs en soulevant une barre sur un banc décliné."
+      },
+      {
+        "name": "Écarté couché",
+        "description": "Exercice pour les pectoraux en étendant des haltères latéralement depuis une position couchée."
+      },
+      {
+        "name": "Écarté incliné",
+        "description": "Variante de l'écarté pour les pectoraux supérieurs sur un banc incliné."
+      },
+      {
+        "name": "Pec deck",
+        "description": "Exercice pour les pectoraux utilisant une machine de pec deck."
+      },
+      {
+        "name": "Dips",
+        "description": "Exercice au poids du corps pour les pectoraux en descendant et remontant le corps entre deux barres parallèles."
+      },
+      {
+        "name": "Pompes",
+        "description": "Exercice de base pour les pectoraux au poids du corps en soulevant et abaissant le corps depuis le sol."
+      },
+      {
+        "name": "Développé haltères",
+        "description": "Exercice pour les pectoraux en soulevant des haltères depuis une position couchée."
+      },
+      {
+        "name": "Développé barre",
+        "description": "Exercice pour les pectoraux en soulevant une barre depuis une position couchée."
+      },
+      {
+        "name": "Développé machine",
+        "description": "Exercice pour les pectoraux utilisant une machine de développé."
+      },
+      {
+        "name": "Pec deck machine",
+        "description": "Exercice pour les pectoraux utilisant une machine de pec deck."
+      },
+      {
+        "name": "Pullover haltères",
+        "description": "Exercice pour les pectoraux en soulevant un haltère au-dessus de la tête depuis une position couchée."
+      },
+      {
+        "name": "Pullover machine",
+        "description": "Exercice pour les pectoraux utilisant une machine de pullover."
+      },
+      {
+        "name": "Crossover",
+        "description": "Exercice pour les pectoraux en tirant des poignées de poulie croisée vers le centre du corps."
+      },
+      {
+        "name": "Pompes inclinées",
+        "description": "Variante des pompes avec les pieds surélevés pour cibler les pectoraux inférieurs."
+      },
+      {
+        "name": "Pompes déclinées",
+        "description": "Variante des pompes avec les mains surélevées pour cibler les pectoraux supérieurs."
+      },
+      {
+        "name": "Pec fly",
+        "description": "Exercice pour les pectoraux en étendant des haltères latéralement depuis une position couchée."
+      },
+      {
+        "name": "Pullover poulie",
+        "description": "Exercice pour les pectoraux utilisant une poulie pour soulever une barre ou une corde au-dessus de la tête."
+      },
+      {
+        "name": "Pompes diamant",
+        "description": "Variante des pompes avec les mains rapprochées pour cibler les triceps et les pectoraux."
+      },
+      {
+        "name": "Développé haltères alterné",
+        "description": "Exercice pour les pectoraux en soulevant des haltères alternativement depuis une position couchée."
+      },
+      {
+        "name": "Développé barre alterné",
+        "description": "Exercice pour les pectoraux en soulevant une barre alternativement depuis une position couchée."
+      },
+      {
+        "name": "Développé élastique",
+        "description": "Exercice pour les pectoraux en utilisant un élastique pour ajouter de la résistance."
+      },
+      {
+        "name": "Écarté élastique",
+        "description": "Exercice pour les pectoraux en utilisant un élastique pour ajouter de la résistance aux écartés."
+      },
+      {
+        "name": "Développé couché prise serrée",
+        "description": "Variante du développé couché avec une prise serrée pour cibler les triceps et les pectoraux."
+      },
+      {
+        "name": "Développé couché prise large",
+        "description": "Variante du développé couché avec une prise large pour cibler les pectoraux."
+      },
+      {
+        "name": "Développé incliné prise serrée",
+        "description": "Variante du développé incliné avec une prise serrée pour cibler les triceps et les pectoraux."
+      },
+      {
+        "name": "Développé incliné prise large",
+        "description": "Variante du développé incliné avec une prise large pour cibler les pectoraux."
+      },
+      {
+        "name": "Développé machine inclinée",
+        "description": "Exercice pour les pectoraux utilisant une machine de développé incliné."
+      },
+      {
+        "name": "Développé machine déclinée",
+        "description": "Exercice pour les pectoraux utilisant une machine de développé décliné."
+      }
+    ]
+  },
+  {
+    "group": "epaule",
+    "exercises": [
+      {
+        "name": "Développé militaire",
+        "description": "Exercice de base pour les épaules en soulevant une barre au-dessus de la tête."
+      },
+      {
+        "name": "Développé haltères",
+        "description": "Exercice pour les épaules en soulevant des haltères au-dessus de la tête."
+      },
+      {
+        "name": "Élévations latérales",
+        "description": "Exercice pour les deltoïdes latéraux en levant des haltères sur les côtés."
+      },
+      {
+        "name": "Élévations frontales",
+        "description": "Exercice pour les deltoïdes antérieurs en levant des haltères devant soi."
+      },
+      {
+        "name": "Oiseau",
+        "description": "Exercice pour les deltoïdes postérieurs en levant des haltères sur les côtés en position penchée."
+      },
+      {
+        "name": "Arnold press",
+        "description": "Variante du développé haltères impliquant une rotation des poignets."
+      },
+      {
+        "name": "Développé barre",
+        "description": "Exercice pour les épaules en soulevant une barre au-dessus de la tête."
+      },
+      {
+        "name": "Développé machine",
+        "description": "Exercice pour les épaules utilisant une machine de développé."
+      },
+      {
+        "name": "Élévations haltères",
+        "description": "Exercice pour les deltoïdes en levant des haltères sur les côtés."
+      },
+      {
+        "name": "Élévations poulie",
+        "description": "Exercice pour les deltoïdes en levant une poignée de poulie sur le côté."
+      },
+      {
+        "name": "Développé barre devant",
+        "description": "Exercice pour les épaules en soulevant une barre devant la tête."
+      },
+      {
+        "name": "Développé barre derrière",
+        "description": "Exercice pour les épaules en soulevant une barre derrière la tête."
+      },
+      {
+        "name": "Développé assis",
+        "description": "Exercice pour les épaules en soulevant une barre ou des haltères en position assise."
+      },
+      {
+        "name": "Développé debout",
+        "description": "Exercice pour les épaules en soulevant une barre ou des haltères en position debout."
+      },
+      {
+        "name": "Rowing vertical",
+        "description": "Exercice pour les épaules et le haut du dos en tirant une barre vers le menton."
+      },
+      {
+        "name": "Shrugs",
+        "description": "Exercice pour les trapèzes en levant les épaules."
+      },
+      {
+        "name": "Shrugs haltères",
+        "description": "Variante des shrugs en utilisant des haltères."
+      },
+      {
+        "name": "Shrugs barre",
+        "description": "Variante des shrugs en utilisant une barre."
+      },
+      {
+        "name": "Shrugs machine",
+        "description": "Variante des shrugs en utilisant une machine."
+      },
+      {
+        "name": "Face pull",
+        "description": "Exercice pour les épaules et le haut du dos en tirant une corde vers le visage."
+      },
+      {
+        "name": "Tirage menton",
+        "description": "Exercice pour les épaules et les trapèzes en tirant une barre vers le menton."
+      },
+      {
+        "name": "Tirage vertical",
+        "description": "Exercice pour les épaules et le haut du dos en tirant une barre vers le menton."
+      },
+      {
+        "name": "Pike push-up",
+        "description": "Variante des pompes ciblant les épaules en formant un V inversé avec le corps."
+      },
+      {
+        "name": "Handstand push-up",
+        "description": "Exercice au poids du corps pour les épaules en faisant des pompes en équilibre sur les mains."
+      },
+      {
+        "name": "Développé unilatéral",
+        "description": "Exercice pour les épaules en soulevant un haltère à la fois au-dessus de la tête."
+      },
+      {
+        "name": "Développé alterné",
+        "description": "Exercice pour les épaules en soulevant des haltères alternativement au-dessus de la tête."
+      },
+      {
+        "name": "Élévations alternées",
+        "description": "Exercice pour les deltoïdes en levant des haltères alternativement sur les côtés."
+      },
+      {
+        "name": "Élévations assises",
+        "description": "Exercice pour les deltoïdes en levant des haltères sur les côtés en position assise."
+      },
+      {
+        "name": "Élévations latérales machine",
+        "description": "Exercice pour les deltoïdes utilisant une machine d'élévations latérales."
+      },
+      {
+        "name": "Élévations frontales machine",
+        "description": "Exercice pour les deltoïdes utilisant une machine d'élévations frontales."
+      }
+    ]
+  },
+  {
+    "group": "jambes",
+    "exercises": [
+      {
+        "name": "Squat",
+        "description": "Exercice de base pour les jambes en pliant les genoux pour abaisser le corps."
+      },
+      {
+        "name": "Squat avant",
+        "description": "Variante du squat avec la barre placée sur les épaules devant le corps."
+      },
+      {
+        "name": "Squat bulgare",
+        "description": "Exercice pour les jambes en position de fente avec une jambe surélevée à l'arrière."
+      },
+      {
+        "name": "Fentes",
+        "description": "Exercice pour les jambes en avançant un pied et en abaissant le corps jusqu'à ce que le genou arrière touche presque le sol."
+      },
+      {
+        "name": "Fentes arrière",
+        "description": "Variante des fentes en reculant un pied pour abaisser le corps."
+      },
+      {
+        "name": "Fentes latérales",
+        "description": "Exercice pour les jambes en écartant un pied sur le côté et en abaissant le corps."
+      },
+      {
+        "name": "Leg press",
+        "description": "Exercice pour les jambes en poussant une plateforme avec les pieds depuis une position assise."
+      },
+      {
+        "name": "Leg curl",
+        "description": "Exercice pour les ischio-jambiers en pliant les genoux pour soulever un poids."
+      },
+      {
+        "name": "Leg extension",
+        "description": "Exercice pour les quadriceps en étendant les genoux pour soulever un poids."
+      },
+      {
+        "name": "Soulevé de terre",
+        "description": "Exercice polyarticulaire travaillant principalement les muscles du dos et des jambes en soulevant une barre du sol."
+      },
+      {
+        "name": "Soulevé de terre jambes tendues",
+        "description": "Variante du soulevé de terre en gardant les jambes presque droites pour cibler les ischio-jambiers."
+      },
+      {
+        "name": "Hip thrust",
+        "description": "Exercice pour les fessiers en soulevant les hanches avec une barre posée sur le bassin."
+      },
+      {
+        "name": "Glute bridge",
+        "description": "Exercice pour les fessiers en soulevant les hanches au poids du corps."
+      },
+      {
+        "name": "Step-up",
+        "description": "Exercice pour les jambes en montant sur une plateforme avec un pied à la fois."
+      },
+      {
+        "name": "Extensions mollets",
+        "description": "Exercice pour les mollets en soulevant les talons depuis une position debout."
+      },
+      {
+        "name": "Extensions mollets machine",
+        "description": "Exercice pour les mollets utilisant une machine de mollets debout."
+      },
+      {
+        "name": "Extensions mollets debout",
+        "description": "Exercice pour les mollets en soulevant les talons depuis une position debout."
+      },
+      {
+        "name": "Extensions mollets assis",
+        "description": "Exercice pour les mollets en soulevant les talons depuis une position assise."
+      },
+      {
+        "name": "Adducteur machine",
+        "description": "Exercice pour les adducteurs utilisant une machine pour rapprocher les jambes."
+      },
+      {
+        "name": "Abducteur machine",
+        "description": "Exercice pour les abducteurs utilisant une machine pour écarter les jambes."
+      },
+      {
+        "name": "Sissy squat",
+        "description": "Exercice pour les quadriceps en abaissant le corps en arrière tout en gardant les genoux pliés."
+      },
+      {
+        "name": "Hack squat",
+        "description": "Exercice pour les jambes utilisant une machine de hack squat."
+      },
+      {
+        "name": "Box jump",
+        "description": "Exercice plyométrique pour les jambes en sautant sur une boîte ou une plateforme."
+      },
+      {
+        "name": "Lunges",
+        "description": "Exercice pour les jambes en avançant un pied et en abaissant le corps jusqu'à ce que le genou arrière touche presque le sol."
+      },
+      {
+        "name": "Lunges alternées",
+        "description": "Variante des lunges en alternant les jambes à chaque répétition."
+      },
+      {
+        "name": "Lunges statiques",
+        "description": "Variante des lunges en restant en position sans avancer."
+      },
+      {
+        "name": "Lunges sautées",
+        "description": "Exercice plyométrique pour les jambes en sautant et changeant de jambe en l'air."
+      },
+      {
+        "name": "Goblet squat",
+        "description": "Variante du squat en tenant un haltère devant la poitrine."
+      },
+      {
+        "name": "Pistol squat",
+        "description": "Exercice avancé pour les jambes en réalisant un squat sur une seule jambe."
+      },
+      {
+        "name": "Cossack squat",
+        "description": "Exercice pour les jambes en abaissant le corps sur un côté tout en gardant l'autre jambe tendue."
+      }
+    ]
+  }
+]
