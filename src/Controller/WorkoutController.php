@@ -3,17 +3,16 @@
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 
-class IndexController extends AbstractController
+class WorkoutController extends AbstractController
 {
-    #[Route('/', name: 'templates_index')]
+    #[Route('/workout', name: 'workout_index')]
     public function index(): Response
     {
-        return $this->render('index.html.twig');
+        return $this->render('workout/index.html.twig', [
+            'controller_name' => 'WorkoutController',
+        ]);
     }
-
 }
-

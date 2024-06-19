@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello MuscleGroupController!{% endblock %}
+
+{% block body %}
+<h1 class="text-4xl text-center">Liste des exercices</h1>
+{% for muscle in muscles %}
+<h2>{{muscle.name}}</h2>
+<ul class="d-flex flex-wrap">
+
+{% for exercise in muscle.exercises %}
+<li class="p-4">{{exercise.name}}</li>
+
+{% endfor %}    
+</ul>
+{% endfor %}
+{% endblock %}

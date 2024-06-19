@@ -22,6 +22,10 @@ class WorkoutExercise
     #[ORM\Column(nullable: true)]
     private ?float $weight = null;
 
+    #[ORM\ManyToOne]
+    #[ORM\JoinColumn(nullable: false)]
+    private ?Exercise $exercises = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -59,6 +63,18 @@ class WorkoutExercise
     public function setWeight(?float $weight): static
     {
         $this->weight = $weight;
+
+        return $this;
+    }
+
+    public function getExercises(): ?Exercise
+    {
+        return $this->exercises;
+    }
+
+    public function setExercises(?Exercise $exercises): static
+    {
+        $this->exercises = $exercises;
 
         return $this;
     }

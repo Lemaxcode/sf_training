@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ExerciseController!{% endblock %}
+
+{% block body %}
+<h1 class="text-4xl text-center">Liste des exercices</h1>
+
+{% for exercise in exercises %}
+
+<p>{{exercise.name}}</p>
+
+
+{% endfor %}
+
+{% endblock %}
