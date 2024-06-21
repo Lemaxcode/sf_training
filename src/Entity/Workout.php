@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use App\Repository\WorkoutRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
@@ -23,6 +25,17 @@ class Workout
     #[ORM\ManyToOne(inversedBy: 'workouts')]
     #[ORM\JoinColumn(nullable: false)]
     private ?User $users = null;
+
+    /**
+     * @var Collection<int, WorkoutExercise>
+     */
+    #[ORM\OneToMany(targetEntity: WorkoutExercise::class, mappedBy: 'workouts')]
+    private Collection $workoutExercises;
+
+    public function __construct()
+    {
+        $this->workoutExercises = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -61,6 +74,36 @@ class Workout
     public function setUsers(?User $users): static
     {
         $this->users = $users;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, WorkoutExercise>
+     */
+    public function getWorkoutExercises(): Collection
+    {
+        return $this->workoutExercises;
+    }
+
+    public function addWorkoutExercise(WorkoutExercise $workoutExercise): static
+    {
+        if (!$this->workoutExercises->contains($workoutExercise)) {
+            $this->workoutExercises->add($workoutExercise);
+            $workoutExercise->setWorkouts($this);
+        }
+
+        return $this;
+    }
+
+    public function removeWorkoutExercise(WorkoutExercise $workoutExercise): static
+    {
+        if ($this->workoutExercises->removeElement($workoutExercise)) {
+            // set the owning side to null (unless already changed)
+            if ($workoutExercise->getWorkouts() === $this) {
+                $workoutExercise->setWorkouts(null);
+            }
+        }
 
         return $this;
     }

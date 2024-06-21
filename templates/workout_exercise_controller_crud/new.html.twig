@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New WorkoutExercise{% endblock %}
+
+{% block body %}
+    <h1>Creer ta séance de sport </h1>
+
+    {{ include('workout_exercise_controller_crud/_form.html.twig') }}
+
+    <a href="{{ path('app_workout_exercise_controller_crud_index') }}">back to list</a>
+{% endblock %}

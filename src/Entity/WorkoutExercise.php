@@ -26,6 +26,10 @@ class WorkoutExercise
     #[ORM\JoinColumn(nullable: false)]
     private ?Exercise $exercises = null;
 
+    #[ORM\ManyToOne(inversedBy: 'workoutExercises')]
+    #[ORM\JoinColumn(nullable: false)]
+    private ?Workout $workouts = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -75,6 +79,18 @@ class WorkoutExercise
     public function setExercises(?Exercise $exercises): static
     {
         $this->exercises = $exercises;
+
+        return $this;
+    }
+
+    public function getWorkouts(): ?Workout
+    {
+        return $this->workouts;
+    }
+
+    public function setWorkouts(?Workout $workouts): static
+    {
+        $this->workouts = $workouts;
 
         return $this;
     }

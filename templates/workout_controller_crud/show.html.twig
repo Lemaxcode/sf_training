@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Workout{% endblock %}
+
+{% block body %}
+    <h1>Workout</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ workout.id }}</td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>{{ workout.name }}</td>
+            </tr>
+            <tr>
+                <th>Created_at</th>
+                <td>{{ workout.createdAt ? workout.createdAt|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_workout_controller_crud_index') }}">back to list</a>
+
+    <a href="{{ path('app_workout_controller_crud_edit', {'id': workout.id}) }}">edit</a>
+
+    <a href="{{ path('app_workout_exercise_controller_crud_new', {'id': workout.id}) }}">Ajoutez un exercice</a>
+
+    {{ include('workout_controller_crud/_delete_form.html.twig') }}
+{% endblock %}

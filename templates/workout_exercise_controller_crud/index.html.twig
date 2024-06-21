@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}WorkoutExercise index{% endblock %}
+
+{% block body %}
+    <h1>WorkoutExercise index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Series</th>
+                <th>Repetition</th>
+                <th>Weight</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for workout_exercise in workout_exercises %}
+            <tr>
+                <td>{{ workout_exercise.id }}</td>
+                <td>{{ workout_exercise.series }}</td>
+                <td>{{ workout_exercise.repetition }}</td>
+                <td>{{ workout_exercise.weight }}</td>
+                <td>
+                    <a href="{{ path('app_workout_exercise_controller_crud_show', {'id': workout_exercise.id}) }}">show</a>
+                    <a href="{{ path('app_workout_exercise_controller_crud_edit', {'id': workout_exercise.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_workout_exercise_controller_crud_new') }}">Create new</a>
+{% endblock %}

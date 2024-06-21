@@ -2,7 +2,10 @@
 
 namespace App\EventListener;
 
+
+use Doctrine\Bundle\DoctrineBundle\Attribute\AsDoctrineListener;
 use Symfony\Component\HttpKernel\Event\ResponseEvent;
+
 
 class AddMyCorpHeaderListener
 {

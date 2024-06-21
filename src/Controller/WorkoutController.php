@@ -11,8 +11,10 @@ class WorkoutController extends AbstractController
     #[Route('/workout', name: 'workout_index')]
     public function index(): Response
     {
+        $user= $this->getUser();
+        $workouts = $user->getWorkouts();
         return $this->render('workout/index.html.twig', [
-            'controller_name' => 'WorkoutController',
+            'workouts'=> $workouts
         ]);
     }
 }

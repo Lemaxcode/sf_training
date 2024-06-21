@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}WorkoutExercise{% endblock %}
+
+{% block body %}
+    <h1>WorkoutExercise</h1>
+
+    {% for workout in workout_exercise %}
+
+    <p>{{ workout.id }}</p>
+
+    {% endfor %}
+
+    <a href="{{ path('app_workout_exercise_controller_crud_index') }}">back to list</a>
+
+
+    
+{% endblock %}
