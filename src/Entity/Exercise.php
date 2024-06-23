@@ -24,6 +24,9 @@ class Exercise
     #[ORM\JoinColumn(nullable: false)]
     private ?MuscleGroup $muscleGroup = null;
 
+    #[ORM\Column(length: 255, nullable: true)]
+    private ?string $exercisePicfile = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -61,6 +64,18 @@ class Exercise
     public function setMuscleGroup(?MuscleGroup $muscleGroup): static
     {
         $this->muscleGroup = $muscleGroup;
+
+        return $this;
+    }
+
+    public function getExercisePicfile(): ?string
+    {
+        return $this->exercisePicfile;
+    }
+
+    public function setExercisePicfile(?string $exercisePicfile): static
+    {
+        $this->exercisePicfile = $exercisePicfile;
 
         return $this;
     }

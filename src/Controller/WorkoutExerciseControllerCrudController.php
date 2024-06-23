@@ -53,7 +53,7 @@ class WorkoutExerciseControllerCrudController extends AbstractController
         //trouver la liste des exercices par rapport a un workout
         $workout = $entityManager->getRepository(Workout::class)->findOneBy(['id' => $id]);
 
-        $workoutsExercises = $entityManager->getRepository(WorkoutExercise::class)->findBy(['id' => 3]);
+        $workoutsExercises = $entityManager->getRepository(WorkoutExercise::class)->findBy(['id' => $id]);
 
 
         return $this->render('workout_exercise_controller_crud/show.html.twig', [
